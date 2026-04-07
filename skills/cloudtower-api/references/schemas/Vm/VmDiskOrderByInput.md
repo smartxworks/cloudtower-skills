@@ -1,0 +1,40 @@
+# VmDiskOrderByInput
+
+**Type:** enum
+
+## Values
+
+- `boot_ASC`
+- `boot_DESC`
+- `bus_ASC`
+- `bus_DESC`
+- `cloud_init_image_name_ASC`
+- `cloud_init_image_name_DESC`
+- `cloud_init_image_path_ASC`
+- `cloud_init_image_path_DESC`
+- `device_ASC`
+- `device_DESC`
+- `disabled_ASC`
+- `disabled_DESC`
+- `id_ASC`
+- `id_DESC`
+- `key_ASC`
+- `key_DESC`
+- `max_bandwidth_ASC`
+- `max_bandwidth_DESC`
+- `max_bandwidth_policy_ASC`
+- `max_bandwidth_policy_DESC`
+- `max_iops_ASC`
+- `max_iops_DESC`
+- `max_iops_policy_ASC`
+- `max_iops_policy_DESC`
+- `serial_ASC`
+- `serial_DESC`
+- `type_ASC`
+- `type_DESC`
+- `unsafe_image_path_ASC`
+- `unsafe_image_path_DESC`
+- `unsafe_image_uuid_ASC`
+- `unsafe_image_uuid_DESC`
+- `unsafe_provision_ASC`
+- `unsafe_provision_DESC`

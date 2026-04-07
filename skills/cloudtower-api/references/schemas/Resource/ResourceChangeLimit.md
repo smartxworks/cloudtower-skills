@@ -1,0 +1,4 @@
+# ResourceChangeLimit
+
+**Type:** primitive
+

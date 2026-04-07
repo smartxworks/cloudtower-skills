@@ -1,0 +1,44 @@
+# BackupRestorePointOrderByInput
+
+**Type:** enum
+
+## Values
+
+- `cluster_local_id_ASC`
+- `cluster_local_id_DESC`
+- `compressed_ASC`
+- `compressed_DESC`
+- `compression_ratio_ASC`
+- `compression_ratio_DESC`
+- `creation_ASC`
+- `creation_DESC`
+- `entityAsyncStatus_ASC`
+- `entityAsyncStatus_DESC`
+- `id_ASC`
+- `id_DESC`
+- `local_created_at_ASC`
+- `local_created_at_DESC`
+- `local_id_ASC`
+- `local_id_DESC`
+- `logical_size_ASC`
+- `logical_size_DESC`
+- `parent_restore_point_ASC`
+- `parent_restore_point_DESC`
+- `physical_size_ASC`
+- `physical_size_DESC`
+- `size_ASC`
+- `size_DESC`
+- `slice_ASC`
+- `slice_DESC`
+- `snapshot_consistent_type_ASC`
+- `snapshot_consistent_type_DESC`
+- `type_ASC`
+- `type_DESC`
+- `valid_capacity_ASC`
+- `valid_capacity_DESC`
+- `valid_size_ASC`
+- `valid_size_DESC`
+- `vm_local_id_ASC`
+- `vm_local_id_DESC`
+- `vm_name_ASC`
+- `vm_name_DESC`

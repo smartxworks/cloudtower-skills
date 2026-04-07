@@ -1,0 +1,71 @@
+---
+name: <%= it.meta.name %>
+description: <%= it.meta.description %>. Use when working with the <%= it.meta.title %> or when the user needs to interact with this API.
+<% if (it.meta.license) { -%>
+license: <%= it.meta.license.name %><%= it.meta.license.url ? ` (${it.meta.license.url})` : "" %>
+<% } -%>
+metadata:
+  api-version: "<%= it.meta.version %>"
+  openapi-version: "<%= it.meta.openapiVersion %>"
+<% if (it.meta.contact) { -%>
+  contact: "<%= it.meta.contact %>"
+<% } -%>
+---
+
+# <%= it.meta.title %>
+
+<% if (it.meta.description) { -%>
+<%= it.meta.description %>
+
+<% } -%>
+## How to Use This Skill
+
+This API documentation is split into multiple files for on-demand loading.
+
+**Directory structure:**
+```
+references/
+├── resources/      # <%= it.resources.length %> resource index files
+├── operations/     # <%= it.totalOps %> operation detail files
+└── schemas/        # <%= it.schemaGroups.length %> schema groups, <%= it.totalSchemas %> schema files
+```
+
+**Navigation flow:**
+1. Find the resource you need in the list below
+2. Read `references/resources/<resource>.md` to see available operations
+3. Read `references/operations/<operation>.md` for full details
+4. If an operation references a schema, read `references/schemas/<prefix>/<schema>.md`
+<% if (it.meta.servers.length > 0) { %>
+## Base URL
+
+<% it.meta.servers.forEach(server => { -%>
+- `<%= server.url %>`<%= server.description ? ` - ${server.description}` : "" %>
+<% }) -%>
+<% } -%>
+## API Endpoint Prefix
+
+- `/v2/api`
+- Operation paths in `references/operations/*.md` should be called as `/v2/api` + operation path.
+
+<% if (it.meta.securitySchemes.length > 0) { %>
+## Authentication
+
+Supported methods: <%= it.meta.securitySchemes.map(s => `**${s}**`).join(", ") %>. See `references/authentication.md` for details.
+<% } %>
+## Async Operations and Tasks
+
+Most mutation operations are asynchronous. Instead of blocking, the API returns immediately with a placeholder resource and a task reference. As a result, a successful response does **not** guarantee that the operation has finished; the returned `data` (except for the resource `id`) should be treated as temporary.
+
+Mutation responses are typically `WithTask<T>` or `Array<WithTask<T>>`. See the schema index at [With schemas](references/schemas/With/_index.md) for concrete types.
+
+Use the task ID to track completion via the Task resource:
+
+- Resource: [Task](references/resources/Task.md)
+- Operation: [GetTasks](references/operations/GetTasks.md)
+
+Poll the task until it finishes (success or failure), then fetch the latest resource state by ID. If `task_id` is `null`, the operation is synchronous and no polling is required.
+## Resources
+
+<% it.resources.forEach(resource => { -%>
+- **<%= resource.tag %>** → `references/resources/<%= it.toFileName(resource.tag) %>.md` (<%= resource.operations.length %> ops)<%= resource.description ? ` - ${resource.description.substring(0, 50)}` : "" %>
+<% }) -%>

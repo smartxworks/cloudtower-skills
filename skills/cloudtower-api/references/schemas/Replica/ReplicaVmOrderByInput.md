@@ -1,0 +1,42 @@
+# ReplicaVmOrderByInput
+
+**Type:** enum
+
+## Values
+
+- `createdAt_ASC`
+- `createdAt_DESC`
+- `entityAsyncStatus_ASC`
+- `entityAsyncStatus_DESC`
+- `failover_test_object_descriptor_ASC`
+- `failover_test_object_descriptor_DESC`
+- `failover_test_replica_group_ASC`
+- `failover_test_replica_group_DESC`
+- `id_ASC`
+- `id_DESC`
+- `inbound_ASC`
+- `inbound_DESC`
+- `object_descriptor_ASC`
+- `object_descriptor_DESC`
+- `origin_object_descriptor_ASC`
+- `origin_object_descriptor_DESC`
+- `origin_vm_cluster_local_id_ASC`
+- `origin_vm_cluster_local_id_DESC`
+- `origin_vm_cluster_name_ASC`
+- `origin_vm_cluster_name_DESC`
+- `origin_vm_local_id_ASC`
+- `origin_vm_local_id_DESC`
+- `origin_vm_name_ASC`
+- `origin_vm_name_DESC`
+- `replica_group_ASC`
+- `replica_group_DESC`
+- `replication_group_ASC`
+- `replication_group_DESC`
+- `state_ASC`
+- `state_DESC`
+- `targets_deletable_ASC`
+- `targets_deletable_DESC`
+- `type_ASC`
+- `type_DESC`
+- `updatedAt_ASC`
+- `updatedAt_DESC`

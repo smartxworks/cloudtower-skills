@@ -1,0 +1,46 @@
+# ZoneOrderByInput
+
+**Type:** enum
+
+## Values
+
+- `failure_data_space_ASC`
+- `failure_data_space_DESC`
+- `host_num_ASC`
+- `host_num_DESC`
+- `id_ASC`
+- `id_DESC`
+- `is_preferred_ASC`
+- `is_preferred_DESC`
+- `local_id_ASC`
+- `local_id_DESC`
+- `provisioned_cpu_cores_ASC`
+- `provisioned_cpu_cores_DESC`
+- `provisioned_cpu_cores_for_active_vm_ASC`
+- `provisioned_cpu_cores_for_active_vm_DESC`
+- `provisioned_data_space_ASC`
+- `provisioned_data_space_DESC`
+- `provisioned_memory_bytes_ASC`
+- `provisioned_memory_bytes_DESC`
+- `running_vm_num_ASC`
+- `running_vm_num_DESC`
+- `stopped_vm_num_ASC`
+- `stopped_vm_num_DESC`
+- `suspended_vm_num_ASC`
+- `suspended_vm_num_DESC`
+- `total_cache_capacity_ASC`
+- `total_cache_capacity_DESC`
+- `total_cpu_cores_ASC`
+- `total_cpu_cores_DESC`
+- `total_cpu_hz_ASC`
+- `total_cpu_hz_DESC`
+- `total_data_capacity_ASC`
+- `total_data_capacity_DESC`
+- `total_memory_bytes_ASC`
+- `total_memory_bytes_DESC`
+- `used_data_space_ASC`
+- `used_data_space_DESC`
+- `valid_data_space_ASC`
+- `valid_data_space_DESC`
+- `vm_num_ASC`
+- `vm_num_DESC`

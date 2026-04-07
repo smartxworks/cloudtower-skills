@@ -1,0 +1,36 @@
+# POST /update-customize-alert-rule
+
+**Resource:** [GlobalAlertRule](../resources/GlobalAlertRule.md)
+**Operation ID:** `UpdateCustomizeAlertRule`
+
+## Parameters
+
+| Name | In | Type | Required | Description |
+|------|------|------|----------|-------------|
+| `content-language` | header | ContentLanguage | No |  |
+| `external-cloudtower-id` | header | string | No |  |
+
+## Request Body
+
+**Required:** Yes
+
+**Content Types:** `application/json`
+
+**Schema:** [CustomizeAlertRuleUpdationParams](../schemas/Customize/CustomizeAlertRuleUpdationParams.md)
+
+## Responses
+
+| Status | Description |
+|--------|-------------|
+| 200 |  |
+| 400 | Bad request |
+| 404 | Not found |
+| 500 | Server error |
+
+**Success Response Schema:**
+
+Array of [WithTask_GlobalAlertRule_](../schemas/With/WithTask-GlobalAlertRule.md)
+
+## Security
+
+- **Authorization**

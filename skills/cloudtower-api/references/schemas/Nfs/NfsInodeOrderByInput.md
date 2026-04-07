@@ -1,0 +1,42 @@
+# NfsInodeOrderByInput
+
+**Type:** enum
+
+## Values
+
+- `assigned_size_ASC`
+- `assigned_size_DESC`
+- `downgraded_prioritized_space_ASC`
+- `downgraded_prioritized_space_DESC`
+- `ec_k_ASC`
+- `ec_k_DESC`
+- `ec_m_ASC`
+- `ec_m_DESC`
+- `encrypt_method_ASC`
+- `encrypt_method_DESC`
+- `entityAsyncStatus_ASC`
+- `entityAsyncStatus_DESC`
+- `file_ASC`
+- `file_DESC`
+- `id_ASC`
+- `id_DESC`
+- `local_id_ASC`
+- `local_id_DESC`
+- `local_updated_at_ASC`
+- `local_updated_at_DESC`
+- `name_ASC`
+- `name_DESC`
+- `parent_id_ASC`
+- `parent_id_DESC`
+- `prioritized_ASC`
+- `prioritized_DESC`
+- `resiliency_type_ASC`
+- `resiliency_type_DESC`
+- `shared_size_ASC`
+- `shared_size_DESC`
+- `snapshot_num_ASC`
+- `snapshot_num_DESC`
+- `unique_logical_size_ASC`
+- `unique_logical_size_DESC`
+- `unique_size_ASC`
+- `unique_size_DESC`

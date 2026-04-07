@@ -1,0 +1,36 @@
+# POST /get-replication-plans
+
+**Resource:** [ReplicationPlan](../resources/ReplicationPlan.md)
+**Operation ID:** `GetReplicationPlans`
+
+## Parameters
+
+| Name | In | Type | Required | Description |
+|------|------|------|----------|-------------|
+| `content-language` | header | ContentLanguage | No |  |
+| `external-cloudtower-id` | header | string | No |  |
+
+## Request Body
+
+**Required:** Yes
+
+**Content Types:** `application/json`
+
+**Schema:** [GetReplicationPlansRequestBody](../schemas/Get/GetReplicationPlansRequestBody.md)
+
+## Responses
+
+| Status | Description |
+|--------|-------------|
+| 200 |  |
+| 400 | Bad request |
+| 404 | Not found |
+| 500 | Server error |
+
+**Success Response Schema:**
+
+Array of [ReplicationPlan](../schemas/Replication/ReplicationPlan.md)
+
+## Security
+
+- **Authorization**

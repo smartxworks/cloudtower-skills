@@ -1,0 +1,15 @@
+# BackupServiceStatus
+
+**Type:** enum
+
+## Values
+
+- `ERROR`
+- `INITIALIZING`
+- `INSTALLING`
+- `INSTALL_FAILED`
+- `RUNNING`
+- `TERMINATE_FAILED`
+- `TERMINATING`
+- `UPGRADE_FAILED`
+- `UPGRADING`

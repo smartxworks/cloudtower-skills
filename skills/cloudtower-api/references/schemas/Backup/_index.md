@@ -1,0 +1,69 @@
+# Backup Schemas
+
+63 schemas in this group.
+
+| Schema | Type | Description |
+|--------|------|-------------|
+| [BackupPlanWhereInput](BackupPlanWhereInput.md) | object |  |
+| [BackupPlanDelayOption](BackupPlanDelayOption.md) | enum |  |
+| [BackupPlanExecutionWhereInput](BackupPlanExecutionWhereInput.md) | object |  |
+| [BackupExecutionMethod](BackupExecutionMethod.md) | enum |  |
+| [BackupPlanExecutionState](BackupPlanExecutionState.md) | enum |  |
+| [BackupPlanExecutionStatus](BackupPlanExecutionStatus.md) | enum |  |
+| [BackupExecutionType](BackupExecutionType.md) | enum |  |
+| [BackupRestorePointWhereInput](BackupRestorePointWhereInput.md) | object |  |
+| [BackupRestoreExecutionWhereInput](BackupRestoreExecutionWhereInput.md) | object |  |
+| [BackupRestoreExecutionMode](BackupRestoreExecutionMode.md) | enum |  |
+| [BackupExecutionStatus](BackupExecutionStatus.md) | enum |  |
+| [BackupTargetExecutionWhereInput](BackupTargetExecutionWhereInput.md) | object |  |
+| [BackupRestorePointCreation](BackupRestorePointCreation.md) | enum |  |
+| [BackupRestorePointType](BackupRestorePointType.md) | enum |  |
+| [BackupServiceWhereInput](BackupServiceWhereInput.md) | object |  |
+| [BackupServiceNetworkType](BackupServiceNetworkType.md) | enum |  |
+| [BackupStoreRepositoryWhereInput](BackupStoreRepositoryWhereInput.md) | object |  |
+| [BackupStoreStatus](BackupStoreStatus.md) | enum |  |
+| [BackupStoreType](BackupStoreType.md) | enum |  |
+| [BackupServiceStatus](BackupServiceStatus.md) | enum |  |
+| [BackupPlanDeleteStrategy](BackupPlanDeleteStrategy.md) | enum |  |
+| [BackupPlanPeriod](BackupPlanPeriod.md) | enum |  |
+| [BackupPlanKeepPolicy](BackupPlanKeepPolicy.md) | enum |  |
+| [BackupPlanPhase](BackupPlanPhase.md) | enum |  |
+| [BackupPlanStatus](BackupPlanStatus.md) | enum |  |
+| [BackupJobPhase](BackupJobPhase.md) | enum |  |
+| [BackupExecutionState](BackupExecutionState.md) | enum |  |
+| [BackupDedupMode](BackupDedupMode.md) | enum |  |
+| [BackupPlan](BackupPlan.md) | object |  |
+| [BackupPlanTimePoint](BackupPlanTimePoint.md) | object |  |
+| [BackupPlanCreationParams](BackupPlanCreationParams.md) | object |  |
+| [BackupPlanUpdationParams](BackupPlanUpdationParams.md) | object |  |
+| [BackupPlanDeletionParams](BackupPlanDeletionParams.md) | object |  |
+| [BackupPlanSuspendParams](BackupPlanSuspendParams.md) | object |  |
+| [BackupPlanResumeParams](BackupPlanResumeParams.md) | object |  |
+| [BackupPlanExecution](BackupPlanExecution.md) | object |  |
+| [BackupPlanExecuteParams](BackupPlanExecuteParams.md) | object |  |
+| [BackupRestoreExecution](BackupRestoreExecution.md) | object |  |
+| [BackupRestoreExecutionNetworkInformation](BackupRestoreExecutionNetworkInformation.md) | object |  |
+| [BackupRestoreExecutionNetworkMapping](BackupRestoreExecutionNetworkMapping.md) | object |  |
+| [BackupRestorePointRebuildParams](BackupRestorePointRebuildParams.md) | object |  |
+| [BackupRestorePointRestoreInPlaceParams](BackupRestorePointRestoreInPlaceParams.md) | object |  |
+| [BackupRestorePointDeletionParams](BackupRestorePointDeletionParams.md) | object |  |
+| [BackupRestorePointWhereUniqueInput](BackupRestorePointWhereUniqueInput.md) | object |  |
+| [BackupPlanOrderByInput](BackupPlanOrderByInput.md) | enum |  |
+| [BackupPlanExecutionOrderByInput](BackupPlanExecutionOrderByInput.md) | enum |  |
+| [BackupPlanExecutionConnection](BackupPlanExecutionConnection.md) | object |  |
+| [BackupPlanConnection](BackupPlanConnection.md) | object |  |
+| [BackupRestoreExecutionOrderByInput](BackupRestoreExecutionOrderByInput.md) | enum |  |
+| [BackupRestoreExecutionConnection](BackupRestoreExecutionConnection.md) | object |  |
+| [BackupRestorePoint](BackupRestorePoint.md) | object |  |
+| [BackupRestorePointOrderByInput](BackupRestorePointOrderByInput.md) | enum |  |
+| [BackupRestorePointConnection](BackupRestorePointConnection.md) | object |  |
+| [BackupServiceNetworkStatusEnum](BackupServiceNetworkStatusEnum.md) | enum |  |
+| [BackupService](BackupService.md) | object |  |
+| [BackupServiceOrderByInput](BackupServiceOrderByInput.md) | enum |  |
+| [BackupServiceConnection](BackupServiceConnection.md) | object |  |
+| [BackupStoreRepository](BackupStoreRepository.md) | object |  |
+| [BackupStoreRepositoryOrderByInput](BackupStoreRepositoryOrderByInput.md) | enum |  |
+| [BackupStoreRepositoryConnection](BackupStoreRepositoryConnection.md) | object |  |
+| [BackupTargetExecution](BackupTargetExecution.md) | object |  |
+| [BackupTargetExecutionOrderByInput](BackupTargetExecutionOrderByInput.md) | enum |  |
+| [BackupTargetExecutionConnection](BackupTargetExecutionConnection.md) | object |  |

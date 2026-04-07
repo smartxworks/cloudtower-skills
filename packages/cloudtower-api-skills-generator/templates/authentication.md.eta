@@ -1,0 +1,77 @@
+# Authentication
+
+This document describes the authentication methods supported by this API.
+
+## CloudTower Authentication Flow
+
+CloudTower API usage follows a simple two-step flow:
+
+1) Call the `POST /login` operation to obtain an auth token.
+2) Include that token in the `Authorization` header for all other requests.
+
+All requests other than `POST /login` require the authorization header.
+
+### Login Operation (User → `POST /login`)
+
+**References:**
+
+- Resource: [User](resources/User.md)
+- Operation: [Login](operations/Login.md)
+- Request schema: [LoginInput](schemas/Login/LoginInput.md)
+- Response schema: [WithTask_LoginResponse_](schemas/With/WithTask-LoginResponse.md)
+- Data schema: [LoginResponse](schemas/Login/LoginResponse.md)
+
+**Headers (optional):**
+
+- `content-language`
+- `external-cloudtower-id`
+
+**Default login source:**
+
+- `source` in `LoginInput` uses enum [UserSource](schemas/User/UserSource.md): `AUTHN`, `LDAP`, `LOCAL`, `SSO`.
+- Use `LOCAL` as the default `source` value unless the user explicitly requests another source.
+
+**Request and response schemas:**
+
+See the referenced schema files for full request/response details.
+
+<% it.schemes.forEach(scheme => { -%>
+## <%= scheme.name %>
+
+**Type:** <%= scheme.type %>
+
+<% if (scheme.description) { -%>
+<%= scheme.description %>
+
+<% } -%>
+<% if (scheme.type === "apiKey") { -%>
+- **In:** <%= scheme.in %>
+
+<% } else if (scheme.type === "http") { -%>
+- **Scheme:** <%= scheme.scheme %>
+<% if (scheme.bearerFormat) { -%>
+- **Bearer Format:** <%= scheme.bearerFormat %>
+<% } -%>
+
+<% } else if (scheme.type === "oauth2" && scheme.flows) { -%>
+<% scheme.flows.forEach(flow => { -%>
+**<%= flow.name %> flow:**
+<% if (flow.authorizationUrl) { -%>
+- Authorization URL: <%= flow.authorizationUrl %>
+<% } -%>
+<% if (flow.tokenUrl) { -%>
+- Token URL: <%= flow.tokenUrl %>
+<% } -%>
+<% if (Object.keys(flow.scopes).length > 0) { -%>
+- Scopes:
+<% Object.entries(flow.scopes).forEach(([scope, desc]) => { -%>
+  - `<%= scope %>`: <%= desc %>
+<% }) -%>
+<% } -%>
+
+<% }) -%>
+<% } else if (scheme.type === "openIdConnect") { -%>
+- **OpenID Connect URL:** <%= scheme.openIdConnectUrl %>
+
+<% } -%>
+<% }) -%>

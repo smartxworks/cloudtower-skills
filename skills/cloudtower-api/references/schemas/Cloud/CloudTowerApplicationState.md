@@ -1,0 +1,18 @@
+# CloudTowerApplicationState
+
+**Type:** enum
+
+## Values
+
+- `CONFIGURE_FAILED`
+- `CONFIGURING`
+- `ERROR`
+- `INSTALLING`
+- `INSTALL_FAILED`
+- `RUNNING`
+- `SCALE_FAILED`
+- `SCALING`
+- `TERMINATE_FAILED`
+- `TERMINATING`
+- `UPGRADE_FAILED`
+- `UPGRADING`

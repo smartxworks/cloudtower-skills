@@ -1,0 +1,4 @@
+# ReplicaNum
+
+**Type:** primitive
+

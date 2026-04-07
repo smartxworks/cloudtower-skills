@@ -1,0 +1,40 @@
+# EcpLicenseOrderByInput
+
+**Type:** enum
+
+## Values
+
+- `cluster_local_id_ASC`
+- `cluster_local_id_DESC`
+- `ecp_edition_ASC`
+- `ecp_edition_DESC`
+- `expire_date_ASC`
+- `expire_date_DESC`
+- `has_metrox_ASC`
+- `has_metrox_DESC`
+- `has_remote_backup_ASC`
+- `has_remote_backup_DESC`
+- `id_ASC`
+- `id_DESC`
+- `license_type_ASC`
+- `license_type_DESC`
+- `max_core_num_ASC`
+- `max_core_num_DESC`
+- `max_physical_data_capacity_ASC`
+- `max_physical_data_capacity_DESC`
+- `original_code_ASC`
+- `original_code_DESC`
+- `product_name_ASC`
+- `product_name_DESC`
+- `serial_ASC`
+- `serial_DESC`
+- `sign_date_ASC`
+- `sign_date_DESC`
+- `subscription_expire_date_ASC`
+- `subscription_expire_date_DESC`
+- `subscription_start_date_ASC`
+- `subscription_start_date_DESC`
+- `vendor_ASC`
+- `vendor_DESC`
+- `version_ASC`
+- `version_DESC`

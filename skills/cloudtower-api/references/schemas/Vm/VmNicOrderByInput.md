@@ -1,0 +1,44 @@
+# VmNicOrderByInput
+
+**Type:** enum
+
+## Values
+
+- `dpi_enabled_ASC`
+- `dpi_enabled_DESC`
+- `egress_rate_limit_burst_in_bit_ASC`
+- `egress_rate_limit_burst_in_bit_DESC`
+- `egress_rate_limit_enabled_ASC`
+- `egress_rate_limit_enabled_DESC`
+- `egress_rate_limit_max_rate_in_bitps_ASC`
+- `egress_rate_limit_max_rate_in_bitps_DESC`
+- `enabled_ASC`
+- `enabled_DESC`
+- `gateway_ASC`
+- `gateway_DESC`
+- `id_ASC`
+- `id_DESC`
+- `ingress_rate_limit_burst_in_bit_ASC`
+- `ingress_rate_limit_burst_in_bit_DESC`
+- `ingress_rate_limit_enabled_ASC`
+- `ingress_rate_limit_enabled_DESC`
+- `ingress_rate_limit_max_rate_in_bitps_ASC`
+- `ingress_rate_limit_max_rate_in_bitps_DESC`
+- `interface_id_ASC`
+- `interface_id_DESC`
+- `ip_address_ASC`
+- `ip_address_DESC`
+- `local_id_ASC`
+- `local_id_DESC`
+- `mac_address_ASC`
+- `mac_address_DESC`
+- `mirror_ASC`
+- `mirror_DESC`
+- `model_ASC`
+- `model_DESC`
+- `order_ASC`
+- `order_DESC`
+- `subnet_mask_ASC`
+- `subnet_mask_DESC`
+- `type_ASC`
+- `type_DESC`

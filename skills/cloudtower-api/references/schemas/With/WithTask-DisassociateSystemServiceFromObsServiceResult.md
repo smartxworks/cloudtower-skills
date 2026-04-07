@@ -1,0 +1,11 @@
+# WithTask_DisassociateSystemServiceFromObsServiceResult_
+
+**Type:** object
+
+## Fields
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `task_id` | string | No |  |
+| `data` | [DisassociateSystemServiceFromObsServiceResult](DisassociateSystemServiceFromObsServiceResult.md) | Yes |  |
+

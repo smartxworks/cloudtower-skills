@@ -1,0 +1,40 @@
+# ReplicationServiceOrderByInput
+
+**Type:** enum
+
+## Values
+
+- `createdAt_ASC`
+- `createdAt_DESC`
+- `description_ASC`
+- `description_DESC`
+- `entityAsyncStatus_ASC`
+- `entityAsyncStatus_DESC`
+- `id_ASC`
+- `id_DESC`
+- `kube_config_ASC`
+- `kube_config_DESC`
+- `management_network_ASC`
+- `management_network_DESC`
+- `max_failback_jobs_ASC`
+- `max_failback_jobs_DESC`
+- `max_failback_speed_limit_ASC`
+- `max_failback_speed_limit_DESC`
+- `max_replication_jobs_ASC`
+- `max_replication_jobs_DESC`
+- `max_replication_speed_limit_ASC`
+- `max_replication_speed_limit_DESC`
+- `max_retry_times_ASC`
+- `max_retry_times_DESC`
+- `name_ASC`
+- `name_DESC`
+- `replication_clusters_descriptor_ASC`
+- `replication_clusters_descriptor_DESC`
+- `replication_network_ASC`
+- `replication_network_DESC`
+- `retry_interval_ASC`
+- `retry_interval_DESC`
+- `storage_network_ASC`
+- `storage_network_DESC`
+- `updatedAt_ASC`
+- `updatedAt_DESC`

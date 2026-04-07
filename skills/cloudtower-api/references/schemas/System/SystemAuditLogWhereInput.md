@@ -1,0 +1,103 @@
+# SystemAuditLogWhereInput
+
+**Type:** object
+
+## Fields
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `AND` | SystemAuditLogWhereInput[] | No |  |
+| `NOT` | SystemAuditLogWhereInput[] | No |  |
+| `OR` | SystemAuditLogWhereInput[] | No |  |
+| `action` | string | No |  |
+| `action_contains` | string | No |  |
+| `action_ends_with` | string | No |  |
+| `action_gt` | string | No |  |
+| `action_gte` | string | No |  |
+| `action_in` | string[] | No |  |
+| `action_lt` | string | No |  |
+| `action_lte` | string | No |  |
+| `action_not` | string | No |  |
+| `action_not_contains` | string | No |  |
+| `action_not_ends_with` | string | No |  |
+| `action_not_in` | string[] | No |  |
+| `action_not_starts_with` | string | No |  |
+| `action_starts_with` | string | No |  |
+| `cluster` | any | No |  |
+| `finished_at` | string | No |  |
+| `finished_at_gt` | string | No |  |
+| `finished_at_gte` | string | No |  |
+| `finished_at_in` | string[] | No |  |
+| `finished_at_lt` | string | No |  |
+| `finished_at_lte` | string | No |  |
+| `finished_at_not` | string | No |  |
+| `finished_at_not_in` | string[] | No |  |
+| `id` | string | No |  |
+| `id_contains` | string | No |  |
+| `id_ends_with` | string | No |  |
+| `id_gt` | string | No |  |
+| `id_gte` | string | No |  |
+| `id_in` | string[] | No |  |
+| `id_lt` | string | No |  |
+| `id_lte` | string | No |  |
+| `id_not` | string | No |  |
+| `id_not_contains` | string | No |  |
+| `id_not_ends_with` | string | No |  |
+| `id_not_in` | string[] | No |  |
+| `id_not_starts_with` | string | No |  |
+| `id_starts_with` | string | No |  |
+| `local_created_at` | string | No |  |
+| `local_created_at_gt` | string | No |  |
+| `local_created_at_gte` | string | No |  |
+| `local_created_at_in` | string[] | No |  |
+| `local_created_at_lt` | string | No |  |
+| `local_created_at_lte` | string | No |  |
+| `local_created_at_not` | string | No |  |
+| `local_created_at_not_in` | string[] | No |  |
+| `local_id` | string | No |  |
+| `local_id_contains` | string | No |  |
+| `local_id_ends_with` | string | No |  |
+| `local_id_gt` | string | No |  |
+| `local_id_gte` | string | No |  |
+| `local_id_in` | string[] | No |  |
+| `local_id_lt` | string | No |  |
+| `local_id_lte` | string | No |  |
+| `local_id_not` | string | No |  |
+| `local_id_not_contains` | string | No |  |
+| `local_id_not_ends_with` | string | No |  |
+| `local_id_not_in` | string[] | No |  |
+| `local_id_not_starts_with` | string | No |  |
+| `local_id_starts_with` | string | No |  |
+| `message` | string | No |  |
+| `message_contains` | string | No |  |
+| `message_ends_with` | string | No |  |
+| `message_gt` | string | No |  |
+| `message_gte` | string | No |  |
+| `message_in` | string[] | No |  |
+| `message_lt` | string | No |  |
+| `message_lte` | string | No |  |
+| `message_not` | string | No |  |
+| `message_not_contains` | string | No |  |
+| `message_not_ends_with` | string | No |  |
+| `message_not_in` | string[] | No |  |
+| `message_not_starts_with` | string | No |  |
+| `message_starts_with` | string | No |  |
+| `resource_id` | string | No |  |
+| `resource_id_contains` | string | No |  |
+| `resource_id_ends_with` | string | No |  |
+| `resource_id_gt` | string | No |  |
+| `resource_id_gte` | string | No |  |
+| `resource_id_in` | string[] | No |  |
+| `resource_id_lt` | string | No |  |
+| `resource_id_lte` | string | No |  |
+| `resource_id_not` | string | No |  |
+| `resource_id_not_contains` | string | No |  |
+| `resource_id_not_ends_with` | string | No |  |
+| `resource_id_not_in` | string[] | No |  |
+| `resource_id_not_starts_with` | string | No |  |
+| `resource_id_starts_with` | string | No |  |
+| `status` | any | No |  |
+| `status_in` | UserAuditLogStatus[] | No |  |
+| `status_not` | any | No |  |
+| `status_not_in` | UserAuditLogStatus[] | No |  |
+

@@ -1,0 +1,12 @@
+# HostStatus
+
+**Type:** enum
+
+## Values
+
+- `CONNECTED_ERROR`
+- `CONNECTED_HEALTHY`
+- `CONNECTED_WARNING`
+- `CONNECTING`
+- `INITIALIZING`
+- `SESSION_EXPIRED`

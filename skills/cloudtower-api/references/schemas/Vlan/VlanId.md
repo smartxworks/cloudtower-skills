@@ -1,0 +1,4 @@
+# VlanId
+
+**Type:** primitive
+
