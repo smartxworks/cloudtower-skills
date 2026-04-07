@@ -1,0 +1,4 @@
+interface:
+  display_name: "Metrics Lookup"
+  short_description: "Look up metrics by name or description"
+  default_prompt: "Use $metrics-lookup to find what zbs_volume_read_iops means"
